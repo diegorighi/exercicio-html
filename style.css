@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 72px;
+}
+
+h1 {
+  font-family: inter;
+  text-align: center;
+  margin: auto 0 32px;
+  font-size: 49px;
+  line-height: 56px;
+
+}
+
+#anuncio {
+  display: flex;
+  flex-direction: column;
+  font-family: open sans;
+  text-align: center;
+  color: #7D7987;
+  margin: 0 auto 22px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+  font-family: open sans;
+  color: #7D7987;
+}
+
+#footer a {
+  color: #FF9900;
+}
+
+#footer-element {
+  display: flex;
+  border: 1px solid #ECEFF2;
+  margin: auto;
+  max-width: 70vw;
+}
+
+span {
+  color: #FF9900;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
